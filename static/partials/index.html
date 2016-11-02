@@ -1,0 +1,18 @@
+<h1>Home Page</h1>
+
+
+<h2>Here's an Word2Vec Demo:</h2>
+
+<div ng-controller="ExampleController">
+  <div >
+  <form novalidate class="simple-form">
+    source: <input type="text" ng-model="info.source" /><br />
+    to: <input type="text" ng-model="info.to" /><br />
+    predict: <input type="text" ng-model="info.predict" />
+    <input type="submit" ng-click="submit(info)" value="submit" />
+  </form>
+
+    <p>{{ result }}</p>
+  </div>
+
+</div>
